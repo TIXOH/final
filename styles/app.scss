@@ -1,0 +1,49 @@
+@import "reset.scss";
+@import "menu-style.scss";
+@import "home-style.scss";
+@import "services-style.scss";
+@import "about-style.scss";
+@import "portfolio-style.scss";
+@import "contacts-style.scss";
+@import "modal.scss";
+@import "common.scss";
+@import "media.scss";
+@import "footer.scss";
+
+
+@font-face { 
+  font-family: 'Lato'; 
+  src: url('../fonts/Lato/Lato-Light.ttf');
+  font-weight: 300;              
+  font-style: light; 
+} 
+
+@font-face { 
+  font-family: 'Lato'; 
+  src: url('../fonts/Lato/Lato-Regular.ttf');
+  font-weight: 400;              
+  font-style: normal; 
+} 
+@font-face { 
+  font-family: 'Lato'; 
+  src: url('../fonts/Lato/Lato-Bold.ttf');
+  font-weight: 700;             
+  font-style: bold; 
+} 
+
+@font-face { 
+  font-family: 'Lato'; 
+  src: url('../fonts/Lato/Lato-Black.ttf');
+  font-weight: 900;              
+  font-style: black; 
+} 
+
+@font-face { 
+  font-family: 'Damion'; 
+  src: url('../fonts/Damion/Damion-Regular.ttf');
+}
+body {
+    color: white;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+}
